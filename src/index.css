@@ -23,6 +23,7 @@ body {
 }
 input {
   max-width: 400px;
+  border-radius: 14px;
 }
 button {
   height: 30px;
@@ -48,6 +49,7 @@ nav {
 
 #about-page {
   min-height: 100vh;
+  width: 100vw;
   padding-top: 50px;
   background-color: var(--medium-grey);
   display: flex;
@@ -132,7 +134,7 @@ nav {
 #project-img{
   height: 400px;
   width: 800px;
-  object-fit: cover;
+  object-fit:contain;
   border-radius: 14px;
 }
 
@@ -209,8 +211,16 @@ nav {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
+#contact-form > input, textarea {
+  border-radius: 8px;
+}
+
 textarea {
   width: 50%;
+}
+
+@media (min-width: 450px){
+
 }
 /* body {
   font-family: Arial, sans-serif;

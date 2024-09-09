@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Project from './Project';
 import cocktail from "../images/cocktail.png"
 import todoList from "../images/todoList.png"
+import memeApp from "../images/meme-app.png"
 
 
 
@@ -30,7 +31,7 @@ function Portfolio() {
             skills: "React, React-Router-Dom, Custom Hooks, CSS, JSX, AXIOS, HTTP",
             liveLink: "https://meme-generator-v-2.onrender.com",
             githubLink: "https://github.com/zakward/meme-generator-with-custom-hooks",
-            projectImg: ""
+            projectImg: memeApp
         }
     ])
 
