@@ -42,6 +42,8 @@ nav {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
+
+
 .social-link{
   text-decoration: none;
   color: black;
@@ -219,9 +221,75 @@ textarea {
   width: 50%;
 }
 
-@media (min-width: 450px){
-
+.nav-div {
+  display: flex;
 }
+
+#iconBtn {
+  display: none;
+}
+
+
+/* Large desktop screens (e.g., 1440px and above) */
+@media only screen and (min-width: 1440px) {
+  /* Styles for large desktops */
+}
+
+/* Medium desktops and laptops (e.g., 1024px to 1439px) */
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  /* Styles for medium desktops and laptops */
+}
+
+/* Tablets in landscape (e.g., 768px to 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  /* Styles for tablets in landscape mode */
+}
+
+/* Tablets in portrait (e.g., 768px to 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  /* Styles for tablets in portrait mode */
+}
+
+/* Phones in landscape (e.g., 480px to 767px) */
+@media only screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  /* Styles for phones in landscape mode */
+}
+
+/* Phones in portrait (e.g., 480px to 767px) */
+@media only screen and (min-width: 480px) and (max-width: 767px) and (orientation: portrait) {
+  /* Styles for phones in portrait mode */
+  .nav-div {
+    display: none;
+  }
+
+  #iconBtn {
+    display:inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+/* Small phones (e.g., up to 479px) */
+@media only screen and (max-width: 479px) {
+  /* Styles for small phones */
+  .nav-div {
+    display: none;
+  }
+  #iconBtn {
+    display:inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    margin-top: 20px;
+  }
+ 
+}
+
+
+
+
 /* body {
   font-family: Arial, sans-serif;
   color: var(--medium-grey);
