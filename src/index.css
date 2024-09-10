@@ -282,16 +282,78 @@ textarea {
 @media only screen and (min-width: 480px) and (max-width: 767px) and (orientation: portrait) {
 
   /* Styles for phones in portrait mode */
-  .nav-div {
-    display: none;
+    /* Styles for small phones */
+    .nav-div {
+      display: none;
+    }
+  
+    #iconBtn {
+      display: inline-block;
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      margin: 10px;
+      margin-top: 20px;
+    }
+  
+    #mobileh1 {
+      display: inline-block;
+    }
+  
+    #bio-container {
+      flex-direction: column-reverse;
+      font-size: .5rem;
+      width: 80vw;
+      padding: 15px;
+    }
+  
+    #bio {
+      width: 60vw;
+    }
+  
+    #about-img {
+      height: 10vh;
+      width: 30vw;
+    }
+  
+    #skills-list {
+      width: 80vw;
+      height: 15vh;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 20px;
+      font-size: 12px;
+      padding: 10px;
+    }
+  
+    #skills-list>li {
+      list-style-type: none;
+    }
+  
+    #experience-container {
+      width: 80vw;
+      font-size: 12px;
+    }
+  #portfolio-page >h1 {
+    font-size: 26px;
   }
-
-  #iconBtn {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
+  
+  #project-container {
+    width: 80vw;
+    margin-top: 25px;
   }
+  
+  #project-container > h1, p {
+    font-size: 14px;
+  }
+  
+  #project-img {
+    height: 200px;
+    width: 300px;
+  }
+   .project-links {
+    font-size: 10px;
+   }
 }
 
 /* Small phones (e.g., up to 479px) */
