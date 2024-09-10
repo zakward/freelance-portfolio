@@ -433,6 +433,11 @@ textarea {
  }
 }
 
+@media only screen and (max-height: 800px) {
+  #skills-list {
+    font-size: 8px;
+  }
+}
 
 
 
